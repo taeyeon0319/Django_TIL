@@ -18,7 +18,7 @@ admin.site.register(Comment)
 </br></br>
 
 > ## Admin 커스터마이징하기
-참고자료 : https://docs.djangoproject.com/en/4.0/ref/contrib/admin/' 
+참고자료 : https://docs.djangoproject.com/en/4.0/ref/contrib/admin/
 ### 1. 기본적인 Admin 커스터마이징
 + ModelAdmin옵션
 ```
