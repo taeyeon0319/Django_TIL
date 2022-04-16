@@ -19,7 +19,7 @@ admin.site.register(Comment)
 
 > ## Admin 커스터마이징하기
 참고자료 : https://docs.djangoproject.com/en/4.0/ref/contrib/admin/' 
-1. ### 기본적인 Admin 커스터마이징
+### 1. 기본적인 Admin 커스터마이징
 + ModelAdmin옵션
 ```
 @admin.register(Post)
@@ -42,7 +42,7 @@ class PostModelAdmin(admin.ModelAdmin):
 ```
 </br>
 
-2. ### 심화 Admin 커스터마이징
+### 2. 심화 Admin 커스터마이징
 + 댓글기능을 Post안에 넣기
 ```
 class CommentInLine(admin.TabularInLine):
